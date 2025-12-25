@@ -9,6 +9,7 @@ from ultralytics import YOLO
 # --- Model Configuration ---
 # Load the YOLOv8s model. It is more accurate than the 'n' version.
 # It will be downloaded automatically on the first run.
+# this is the change i have made
 try:
     model = YOLO('yolov8s.pt')
 except Exception as e:
